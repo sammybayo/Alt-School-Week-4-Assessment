@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Application form mirroring the AltSchool Africa sign up page"
+    />
+    <title>AltSchool Africa Application Form</title>
+  </head>
+  <body>
+    <header>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="form.html" aria-current="page">Application Form</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Apply to AltSchool Africa</h1>
+      <p>Fields marked with * are required.</p>
+
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Personal Information</legend>
+
+          <p>
+            <label for="firstName">First name *</label><br />
+            <input
+              type="text"
+              id="firstName"
+              name="firstName"
+              autocomplete="given-name"
+              required
+            />
+          </p>
+
+          <p>
+            <label for="lastName">Last name *</label><br />
+            <input
+              type="text"
+              id="lastName"
+              name="lastName"
+              autocomplete="family-name"
+              required
+            />
+          </p>
+
+          <p>
+            <label for="phone">Phone number *</label><br />
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              autocomplete="tel"
+              required
+            />
+          </p>
+
+
+          <p>
+            <label for="email">Email address *</label><br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              autocomplete="email"
+              required
+            />
+          </p>
+
+
+        <fieldset>
+          <legend>Create Password</legend>
+
+          <p>
+            <label for="password">Password *</label><br />
+            <input
+              type="password"
+              id="password"
+              name="password"
+              autocomplete="new-password"
+              minlength="8"
+              aria-describedby="passwordHint"
+              required
+            />
+          </p>
+
+         
+        <p>
+          <button type="submit">Create Account</button>
+        </p>
+      </form>
+
+      <p>Already have an account? <a href="https://portal.altschoolafrica.com/auth/signin">Sign in</a></p>
+    </main>
+
+    <footer>
+      <address>
+        Bayode Samuel Olaniyi<br />
+        Plot 9031, Beechwood Estate, Ibeju-Lekki, Lagos, Nigeria<br />
+        <a href="mailto:samuelbayode16@gmail.com">samuelbayode16@gmail.com</a>
+      </address>
+      <p><small>&copy; 2026 Bayode Samuel. All rights reserved.</small></p>
+    </footer>
+  </body>
+</html>
